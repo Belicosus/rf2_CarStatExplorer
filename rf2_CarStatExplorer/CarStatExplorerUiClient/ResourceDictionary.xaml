@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:Pll="clr-namespace:CarStatExplorer.Pll;assembly=CarStatExplorerPll"
+                    xmlns:Views="clr-namespace:CarStatExplorerUiClient.Views">
+    
+    <DataTemplate DataType="{x:Type Pll:EngineGraphViewModel}">
+        <Views:EngineGraphView/>
+    </DataTemplate>
+    
+</ResourceDictionary>

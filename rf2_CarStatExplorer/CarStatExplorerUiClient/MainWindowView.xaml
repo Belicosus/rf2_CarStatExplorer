@@ -1,12 +1,13 @@
 ﻿<Window x:Class="CarStatExplorerUiClient.MainWindowView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:Views="clr-namespace:CarStatExplorerUiClient.Views"
+        
         Title="MainWindowView" Height="350" Width="525">
     <Grid>
         <StackPanel>
             <Label Content="This is placed on MainWindow" />
-            <Views:EngineGraphView />
+            
+            <ContentControl Content="{Binding Path=EngineGraphView}" />
         </StackPanel>
     </Grid>
 </Window>

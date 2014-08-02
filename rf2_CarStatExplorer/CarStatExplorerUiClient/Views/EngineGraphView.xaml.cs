@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace CarStatExplorerUiClient.Views
+namespace CarStatExplorer.Ui.Client.Views
 {
     /// <summary>
     /// Interaction logic for EngineGraphView.xaml
@@ -10,6 +10,7 @@ namespace CarStatExplorerUiClient.Views
         public EngineGraphView()
         {
             InitializeComponent();
+
         }
     }
 }

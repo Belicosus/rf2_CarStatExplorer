@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStatExplorerModel", "Car
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStatExplorerDal", "CarStatExplorerDal\CarStatExplorerDal.csproj", "{2A457DA3-4F93-4007-8039-98EEFCE5ECB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStatExplorerCommon", "CarStatExplorerCommon\CarStatExplorerCommon.csproj", "{34367B6F-2179-41C5-A585-4BEB0A30CB1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2A457DA3-4F93-4007-8039-98EEFCE5ECB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A457DA3-4F93-4007-8039-98EEFCE5ECB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A457DA3-4F93-4007-8039-98EEFCE5ECB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34367B6F-2179-41C5-A585-4BEB0A30CB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34367B6F-2179-41C5-A585-4BEB0A30CB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34367B6F-2179-41C5-A585-4BEB0A30CB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34367B6F-2179-41C5-A585-4BEB0A30CB1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

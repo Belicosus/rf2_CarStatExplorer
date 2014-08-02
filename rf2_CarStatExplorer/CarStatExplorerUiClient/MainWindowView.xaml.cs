@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 using CarStatExplorer;
 using CarStatExplorer.Pll;
 
-namespace CarStatExplorerUiClient
+namespace CarStatExplorer.Ui.Client
 {
     /// <summary>
     /// Interaction logic for MainWindowView.xaml

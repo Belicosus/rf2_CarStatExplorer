@@ -46,7 +46,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModelBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +58,10 @@
     <ProjectReference Include="..\CarStatExplorerBll\CarStatExplorerBll.csproj">
       <Project>{1f570f0a-c179-49c3-8a17-d2dee03c09c2}</Project>
       <Name>CarStatExplorerBll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CarStatExplorerCommon\CarStatExplorerCommon.csproj">
+      <Project>{34367b6f-2179-41c5-a585-4beb0a30cb1b}</Project>
+      <Name>CarStatExplorerCommon</Name>
     </ProjectReference>
     <ProjectReference Include="..\CarStatExplorerModel\CarStatExplorerModel.csproj">
       <Project>{d001ceea-9ab5-424a-acb3-2166a47c5ddf}</Project>
